@@ -1,2 +1,2 @@
 # twitter-clone-common
-utils for twitter-clone project
+utils for our twitter-clone project
