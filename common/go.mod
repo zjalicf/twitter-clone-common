@@ -1,4 +1,4 @@
-module github.com/zjalicf/twitter-clone-common/common
+module common
 
 go 1.18
 
