@@ -1,7 +1,11 @@
 package create_user
 
+import (
+	"go.mongodb.org/mongo-driver/bson/primitive"
+)
+
 type User struct {
-	ID         string
+	ID         primitive.ObjectID
 	Firstname  string
 	Lastname   string
 	Gender     Gender
