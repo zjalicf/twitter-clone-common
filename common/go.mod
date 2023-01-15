@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/nats-io/nats.go v1.22.1
-	github.com/zjalicf/twitter-clone-common/common
+	github.com/zjalicf/twitter-clone-common/common@v0.0.0-20230102180322-9fb3defd36a5
 )
 
 require (
