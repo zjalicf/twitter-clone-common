@@ -40,7 +40,7 @@ const (
 	UnknownCommand
 )
 
-type CreateOrderCommand struct {
+type CreateUserCommand struct {
 	User User
 	Type CreateUserCommandType
 }
