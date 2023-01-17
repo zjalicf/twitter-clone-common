@@ -1,6 +1,7 @@
 package create_user
 
 import (
+	"context"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 
@@ -45,8 +46,9 @@ const (
 )
 
 type CreateUserCommand struct {
-	User User
-	Type CreateUserCommandType
+	User    User
+	Type    CreateUserCommandType
+	Context context.Context
 }
 
 type CreateUserReplyType int8
