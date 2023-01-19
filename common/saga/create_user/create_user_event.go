@@ -41,6 +41,7 @@ const (
 	UpdateAuth CreateUserCommandType = iota
 	UpdateUsers
 	UpdateGraph
+	SendMail
 	UnknownCommand
 )
 
@@ -55,6 +56,7 @@ const (
 	AuthUpdated CreateUserReplyType = iota
 	UsersUpdated
 	GraphUpdated
+	MailSended
 	UnknownReply
 )
 
