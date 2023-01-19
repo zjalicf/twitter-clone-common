@@ -42,6 +42,9 @@ const (
 	UpdateUsers
 	UpdateGraph
 	SendMail
+	RollbackFollow
+	RollbackUsers
+	RollbackAuth
 	UnknownCommand
 )
 
@@ -56,7 +59,10 @@ const (
 	AuthUpdated CreateUserReplyType = iota
 	UsersUpdated
 	GraphUpdated
-	MailSended
+	MailSent
+	MailFailed
+	FollowFailed
+	UsersFailed
 	UnknownReply
 )
 
