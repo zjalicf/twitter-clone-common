@@ -22,7 +22,7 @@ const (
 )
 
 type CreateEventCommand struct {
-	Event *Event
+	Event Event
 	Type  CreateEventCommandType
 }
 
@@ -38,6 +38,6 @@ const (
 )
 
 type CreateEventReply struct {
-	Event *Event
+	Event Event
 	Type  CreateEventReplyType
 }
