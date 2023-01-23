@@ -1,11 +1,7 @@
 package create_user
 
-import (
-	"go.mongodb.org/mongo-driver/bson/primitive"
-)
-
 type Event struct {
-	TweetID   primitive.ObjectID
+	TweetID   string
 	Type      string
 	Timestamp int
 }

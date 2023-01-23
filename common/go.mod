@@ -14,6 +14,7 @@ require (
 	github.com/nats-io/nats-server/v2 v2.9.11 // indirect
 	github.com/nats-io/nkeys v0.3.0 // indirect
 	github.com/nats-io/nuid v1.0.1 // indirect
+	github.com/zjalicf/twitter-clone-common v0.0.0-20230122183449-c1abbee38ecb // indirect
 	golang.org/x/crypto v0.5.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
