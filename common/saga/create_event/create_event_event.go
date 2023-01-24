@@ -1,4 +1,4 @@
-package create_user
+package create_event
 
 type Event struct {
 	TweetID   string
