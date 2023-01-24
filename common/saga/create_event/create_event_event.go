@@ -9,9 +9,7 @@ type Event struct {
 type CreateEventCommandType int8
 
 const (
-	UpdateLikeCount CreateEventCommandType = iota
-	UpdateUnlikeCount
-	UpdateViewCount
+	SendMessageToReportService CreateEventCommandType = iota
 	UpdateMongo
 	UpdateCassandra
 	UnknownCommand
@@ -25,9 +23,7 @@ type CreateEventCommand struct {
 type CreateEventReplyType int8
 
 const (
-	LikeCountUpdated CreateEventReplyType = iota
-	UnlikeCountUpdated
-	ViewCountUpdated
+	MessageRecieved CreateEventReplyType = iota
 	MongoUpdated
 	CassandraUpadated
 	UnknownReply
