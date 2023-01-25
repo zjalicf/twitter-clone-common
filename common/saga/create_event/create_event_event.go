@@ -1,9 +1,12 @@
 package create_event
 
 type Event struct {
-	TweetID   string
-	Type      string
-	Timestamp int
+	TweetID      string
+	Type         string
+	Timestamp    int64
+	Timespent    int64
+	DailySpent   int64
+	MonthlySpent int64
 }
 
 type CreateEventCommandType int8
